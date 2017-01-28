@@ -9,8 +9,8 @@ public class Gui extends GuiScreen{
         //drawDefaultBackground();
         int centerY = height / 2;
         int centerX = width / 2;
-        drawString(fontRendererObj, "Lapis Forge", (width / 2) - fontRendererObj.getStringWidth("Lapis Forge") / 2, centerY,0xFFFFFF);
-        drawRect(3,150, 100, 25, 0xFF000000);
+        drawString(fontRendererObj, "Lapis Forge", (width / 2) - fontRendererObj.getStringWidth("Lapis Forge") / 2, 3,0xFFFFFF);
+        drawRect(3,3, 100, 25, 0xFFFF0000);
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
@@ -20,7 +20,11 @@ public class Gui extends GuiScreen{
     }
 
     @Override
-    public boolean doesGuiPauseGame() {
+    public boolean doesGuiPauseGame(){
         return false;
+    }
+
+    public void drawCategory() {
+
     }
 }

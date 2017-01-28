@@ -20,7 +20,6 @@ public class LapisForge {
     @Mod.EventHandler
     public void preInit(FMLInitializationEvent event) {
         proxy.preInit(event);
-        System.out.println("Loading Lapis Forge ...");
     }
 
     @Mod.EventHandler
@@ -32,6 +31,5 @@ public class LapisForge {
     @Mod.EventHandler
     public void postInit(FMLInitializationEvent event) {
         proxy.postInit(event);
-        System.out.println("Lapis Forge Loaded!");
     }
 }

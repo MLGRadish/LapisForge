@@ -9,10 +9,8 @@ import org.lwjgl.input.Keyboard;
 public class Client {
 
     @SubscribeEvent
-    public void onUpdate(TickEvent.ClientTickEvent event)
-    {
-        if (Keyboard.isKeyDown(Keyboard.KEY_LCONTROL))
-        {
+    public void onUpdate(TickEvent.ClientTickEvent event) {
+        if (Keyboard.isKeyDown(Keyboard.KEY_LCONTROL)){
             Minecraft.getMinecraft().displayGuiScreen(new Gui());
         }
     }
