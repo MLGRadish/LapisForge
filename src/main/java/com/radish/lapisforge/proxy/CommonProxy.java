@@ -1,6 +1,5 @@
 package com.radish.lapisforge.proxy;
 
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 public class CommonProxy {
